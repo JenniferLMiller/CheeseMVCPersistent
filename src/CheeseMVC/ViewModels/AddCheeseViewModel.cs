@@ -24,8 +24,6 @@ namespace CheeseMVC.ViewModels
         { }
 
         public AddCheeseViewModel(IEnumerable<CheeseCategory> categories)
-
-        //public AddCheeseViewModel(cheeseCategories)
         {
             Categories =  new List<SelectListItem>();
 
@@ -38,25 +36,5 @@ namespace CheeseMVC.ViewModels
                 });
             }
         }
-
-        //public CheeseType Type { get; set; }
-
-        //public List<SelectListItem> CheeseTypes { get; set; }
-
-        //public AddCheeseViewModel()
-        //{
-
-        //     CheeseTypes = new List<SelectListItem>();
-
-        //     // <option value="0">Hard</option>
-        //
-        /////////// repeat the following for each cheese type
-        //     CheeseTypes.Add(new SelectListItem
-        //     {
-        //         Value = ((int)CheeseType.Hard).ToString(),
-        //         Text = CheeseType.Hard.ToString()
-        //     });
-
-
     }
 }
